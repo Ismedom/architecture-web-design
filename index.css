@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+/* body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: gray;
+} */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+:root {
+    --color-white: white;
+    --color-black: black;
+    --color-orange: #f56817;
+}
+/* set up */
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+img {
+    width: 100px;
+}
+.width-100p {
+    width: 100%;
+}
+.width-1000px {
+    max-width: 950px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.width-1024px {
+    max-width: 1024px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.width-1050px {
+    max-width: 1050px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.width-1200px {
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.width-1300px {
+    max-width: 1300px;
+}
+
+/* 
+
+*/
+
+/* margin y */
+.margin-y {
+    margin: 0.5rem 0;
+}
+.margin-y-one {
+    margin: 1rem 0;
+}
+.margin-y-two {
+    margin: 2rem 0;
+}
+.margin-y-three {
+    margin: 3rem 0;
+}
+
+/* font-size */
+.font-small {
+    font-size: 1.5rem;
+}
+.font-medium {
+    font-size: 2rem;
+}
+.font-large {
+    font-size: 3rem;
+}
+.font-larger {
+    font-size: 4.5rem;
+}
+.font-super-large {
+    font-size: 5.5rem;
+}
+
+/* font-weight */
+.font-thin {
+    font-weight: 400;
+}
+.font-normal {
+    font-weight: 500;
+}
+.font-x-bold {
+    font-weight: 550;
+}
+.font-bold {
+    font-weight: bold;
+}
+.font-bolder {
+    font-weight: bolder;
+}
+/* font-intalic */
+.font-italic {
+    font-style: italic;
+}
+/* btn unerline */
+.btn-underline {
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.btn-underline:hover {
+    border-bottom: none;
+}
+/* rounder */
+.rounder {
+    border-radius: 50%;
+}
+/* color */
+.color-bwhite {
+    background-color: var(--color-white);
+}
+.color-bblack {
+    background-color: rgb(76, 75, 75);
+}
+.color-borange {
+    background-color: #f56817;
+}
+.color-white {
+    color: white;
+}
+.color-black {
+    color: black;
+}
+.color-orange {
+    color: #f56817;
+}
+/* letter */
+.letter-space {
+    letter-spacing: 0.35rem;
+}
